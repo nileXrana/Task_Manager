@@ -2006,6 +2006,11 @@
       width: 100vw;
     }
   }
+  .max-md\:gap-1 {
+    @media (width < 48rem) {
+      gap: calc(var(--spacing) * 1);
+    }
+  }
   .max-md\:text-sm {
     @media (width < 48rem) {
       font-size: var(--text-sm);
