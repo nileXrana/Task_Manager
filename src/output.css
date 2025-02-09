@@ -497,6 +497,12 @@
   .w-\[40\%\] {
     width: 40%;
   }
+  .w-\[100px\] {
+    width: 100px;
+  }
+  .w-\[400px\] {
+    width: 400px;
+  }
   .w-\[40vw\] {
     width: 40vw;
   }
@@ -508,12 +514,6 @@
   }
   .w-\[90vw\] {
     width: 90vw;
-  }
-  .w-\[100px\] {
-    width: 100px;
-  }
-  .w-\[400px\] {
-    width: 400px;
   }
   .w-screen {
     width: 100vw;
@@ -1977,6 +1977,11 @@
       min-height: 40vh;
     }
   }
+  .max-md\:min-h-\[50vh\] {
+    @media (width < 48rem) {
+      min-height: 50vh;
+    }
+  }
   .max-md\:min-h-\[60vh\] {
     @media (width < 48rem) {
       min-height: 60vh;
@@ -1985,6 +1990,11 @@
   .max-md\:w-\[50\%\] {
     @media (width < 48rem) {
       width: 50%;
+    }
+  }
+  .max-md\:w-\[100vw\] {
+    @media (width < 48rem) {
+      width: 100vw;
     }
   }
   .max-md\:text-sm {
