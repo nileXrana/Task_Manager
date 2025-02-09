@@ -1992,6 +1992,11 @@
       width: 50%;
     }
   }
+  .max-md\:w-\[80vw\] {
+    @media (width < 48rem) {
+      width: 80vw;
+    }
+  }
   .max-md\:w-\[100vw\] {
     @media (width < 48rem) {
       width: 100vw;
