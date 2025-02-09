@@ -49,5 +49,10 @@ function completedbro(btn) {
     saveTasks();
 }
 
+document.getElementById("input").addEventListener("keypress",function(event){
+    if(event.key == "Enter"){
+        addkardo()
+    }
+})
 window.onload = loadTasks;
 
