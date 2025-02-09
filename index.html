@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="bg-gradient-to-r from-gray-500 to-gray-800">
+    <h1 class=" w-[70vw] m-auto  p-5 text-center text-white text-5xl ">TASK MANAGER</h1>
+    <div class="text-center">
+        <input id="input" class=" rounded-2xl pl-3.5 w-[400px] h-[50px] p-[3px] bg-white" type="text" placeholder="Enter Task">
+    </div>
+    <div class="text-center mt-3.5">
+        <button onclick="addkardo()" id="add" class=" p-2 mt-1.5 bg-white w-[100px] cursor-pointer rounded-2xl">Add Task</button>
+    </div>
+    <div class="main w-[90vw] min-h-[65vh] m-auto mt-7 flex justify-center gap-5">
+        <div id="firstBox" class="first bg-gray-700 text-white w-[40%]">
+            <div class="text-3xl text-center mt-2.5 mb-7">
+                All Tasks
+            </div>
+        </div>
+        <div id="secondBox" class="second bg-gray-700 text-white w-[40%]">
+            <div class="text-3xl text-center mt-2.5 mb-7">
+                Tasks Completed
+            </div>
+        </div>
+    </div>
+    <footer class="mt-7 border-2 border-black text-white bg-black text-center h-[50px]">
+        @NileshRana
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
