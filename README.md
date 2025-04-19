@@ -12,7 +12,10 @@ A basic Task Manager app to add, delete, and manage your daily tasks.
 
 - HTML  
 - CSS  
-- JavaScript  
+- JavaScript
+
+## Demo Link
+https://task-manager-nilesh-ten.vercel.app/
 
 ## 📚 Note
 
