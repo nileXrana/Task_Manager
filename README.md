@@ -1,6 +1,6 @@
 # 📝 Simple Task Manager
 
-A basic Task Manager app to add, delete, and manage your daily tasks.
+A basic Task Manager app to add, delete, and manage your daily tasks using Local Storage.
 
 ## ⚙️ Features
 
